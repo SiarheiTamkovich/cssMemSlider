@@ -178,7 +178,6 @@
 
 }
 
-
 @media screen and (max-width: 440px) {
     /* Target smartphones, portrait */
 
@@ -201,9 +200,7 @@
     top: 67%;
     width: 90%; 
     }
-
 }
-
 
 @media screen and (max-width: 320px) {
     /* Target smartphones, portrait */
@@ -226,5 +223,4 @@
     .slides-text4 {
     top: 55%;
     }
-
 }
