@@ -86,7 +86,6 @@
     right: 3%; 
     z-index: 10;
     position: absolute; 
-	
 }
 
 .wrapper label {
@@ -107,7 +106,7 @@
 #slide2:checked ~ .controls label:nth-of-type(2),
 #slide3:checked ~ .controls label:nth-of-type(3),
 #slide4:checked ~ .controls label:nth-of-type(4) {
-    border: solid 2px rgb(113, 171, 255);           /* rgb(37, 40, 42);*/
+    border: solid 2px rgb(113, 171, 255);          
     background: rgb(37, 40, 42);
 }
 
@@ -155,8 +154,7 @@
 }
 
 @media screen and (max-width: 830px) {
-    /* Target planshet, landskape */
-        
+            
     #slide1:checked ~ .slider > .slide1,
     #slide2:checked ~ .slider > .slide2,
     #slide3:checked ~ .slider > .slide3,
@@ -167,19 +165,17 @@
     .wrapper .controls {
         top: 62%;
         right: 3%; 
-        
     }
+
     .slides-text1,
     .slides-text2,
     .slides-text3,
     .slides-text4 {
     top: 64%;
     }
-
 }
 
 @media screen and (max-width: 440px) {
-    /* Target smartphones, portrait */
 
     .wrapper .controls {
         top: 55%;
@@ -203,7 +199,6 @@
 }
 
 @media screen and (max-width: 320px) {
-    /* Target smartphones, portrait */
 
     .wrapper .controls {
         top: 44%;
