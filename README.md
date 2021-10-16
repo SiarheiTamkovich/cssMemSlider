@@ -1,3 +1,3 @@
 # cssMemSlider
 for task css Mem Slider
-https://siarheitamkovich.github.io/cssMemSlider/
+https://siarheitamkovich.github.io/cssMemSlider/cssMemSlider/
